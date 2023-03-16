@@ -5,8 +5,10 @@ target 'test' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'RxBlocking'
-  pod 'RxTest'
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
+    pod 'Alamofire'
+
 
   target 'testTests' do
     inherit! :search_paths
